@@ -5,3 +5,75 @@
     box-sizing: border-box;
 }
 
+/* <700px */
+@media only screen and (max-width:700px) {
+
+    /* Profile opens */
+  .profile-container{
+      width: 20%;
+      height: 90%;
+      position: fixed;
+      left: 3%;
+      top: 5%;
+  }
+  /* Profile closes */
+  
+  /* Display Container opens*/
+  .display-container{
+      width: 73%;
+      height: 68%;
+      position: fixed;
+      right: 3%;
+      top: 5%;
+  }
+  /* Display Container closes*/
+  
+  /* Navigation Bar Container */
+  .nav-bar-container{
+     display: none;
+  }
+  /* Navigation Bar Container closes*/
+  }
+
+
+/* <1000px */
+@media only screen and (max-width:1000px) {
+
+  /* Profile opens */
+.profile-container{
+    width: 20%;
+    height: 90%;
+    position: fixed;
+    left: 3%;
+    top: 5%;
+}
+/* Profile closes */
+
+/* Display Container opens*/
+.display-container{
+    width: 73%;
+    height: 68%;
+    position: fixed;
+    right: 3%;
+    top: 5%;
+}
+/* Display Container closes*/
+
+/* Navigation Bar Container */
+.nav-bar-container{
+    width: 73%;
+    height: 20%;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+}
+/* Navigation Bar Container closes*/
+}
+
+
+
+
+
+
+
+
